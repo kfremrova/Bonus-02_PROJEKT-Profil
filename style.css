@@ -13,7 +13,73 @@ html { box-sizing: border-box; }
 	twitter    #1da1f2
 */
 
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
 
 body {
 	background-color: #bdc3c7;
+	margin: 35px;
+	width: 300px; /* šířka celého profilu - zadání */
+	box-shadow: 4px 2px 16px 0;
+}
+
+.hlavicka {
+	position: relative;
+}
+
+.foto {
+	width: 300px;
+}
+
+.logo {
+	position: absolute;
+	right: 25px;
+	bottom: -25px;
+	background-color: #b92e81;
+	border-radius: 50%;
+}
+
+.profil {
+	width: 300px;
+	color: white;
+	background-color: #31363b;
+}
+
+.obsah {
+	padding: 20px; /* 20px odsazení obsahu dle zadání*/
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+.odkazy {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* původní verze stylování odkazů, která mi nefungovala:
+.odkazy {
+	border-top: 2px solid #3f464d;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: white;
+}*/
+
+.odkazy {
+	list-style-type: none;
+	padding-left: 0;
+
+}
+
+.twitter :hover {
+	background-color: #1da1f2;
+}
+
+.facebook :hover {
+	background-color: #3b5998;
+}
+
+.portfolio :hover {
+	background-color: #e74c3c;
 }
